@@ -107,8 +107,7 @@ window.COHORT = {
         "Specialty crop producers play an important role in supplying consumers with nutritious foods, including fruits, vegetables, and nuts, while contributing to local and regional economies. However, identifying and accessing profitable markets remains an ongoing challenge for many producers.",
         "In this project, students will work with specialty crop farmers from Michigan, Georgia, Oregon, and Alabama to learn how they identify new market opportunities, build relationships with buyers, and adapt to changing consumer demand and industry trends. Students will conduct interviews with producers of regionally important specialty crops and analyze common opportunities and challenges related to market access.",
         "Through this experience, students will gain hands-on skills in agricultural research, stakeholder engagement, interviewing, and communication while learning directly from farmers about the business decisions that shape agricultural markets."
-      ],
-      targetStudents: "All our internal majors, as well as students from Econ & Business departments, Horticulture, and Food Science departments."
+      ]
     },
 
     /* ---- PLACEHOLDERS: replace each block below when you have the details.
