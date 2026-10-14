@@ -20,7 +20,7 @@ window.COHORT = {
   // Leave deadline empty ("") to hide it. Example: "November 10, 2026"
   applicationDeadline: "November 17, 2026",
 
-  /* ---- Key dates (shown in the "At a glance" strip) ------------------- */
+  /* ---- Dates and details table ---------------------------------------- */
   keyFacts: [
     { label: "Applications due", value: "November 17, 2026" },
     { label: "Acceptance letters", value: "By December 31, 2026" },
@@ -30,16 +30,16 @@ window.COHORT = {
     { label: "Conference", value: "AAEA Annual Meeting, July 2027, Philadelphia, PA" }
   ],
 
-  /* ---- Hero ----------------------------------------------------------- */
+  /* ---- Page heading and introduction ----------------------------------- */
   title: "Building Connections",
   subtitle: "An Undergraduate Research and Extension Program",
   tagline: "A research and extension exchange program in ag finance, marketing, and food security",
-  intro: "Work in a team of three undergraduates with a faculty advisor from one of our partner universities, carry out a research and extension project, and prepare a presentation for the AAEA Annual Meeting. Please read everything on this page before you apply.",
+  intro: "Building Connections is a paid research and extension program for undergraduates, run jointly by faculty at Michigan State University, Auburn University, the University of Georgia, and Oregon State University. Students work in teams of three with a faculty advisor on a research and extension project and prepare a presentation for the AAEA Annual Meeting. Please read everything on this page before you apply.",
 
   /* ---- Contact (shown under the apply button; leave email "" to hide) -- */
   contact: { name: "", email: "" },
 
-  /* ---- Hero photo (set src to "" to hide) ------------------------------ */
+  /* ---- Photo at the top of the page (set src to "" to hide) ------------ */
   heroImage: {
     src: "assets/hero.jpg",
     alt: "A group of students and faculty standing in front of the AAEA and WAEA Joint Annual Meeting sign",
@@ -83,9 +83,8 @@ window.COHORT = {
 
   work: {
     intro: "Throughout the program, students work with their faculty advisors to carry out the research and extension projects.",
-    research: "Background literature review, data collection, data analysis using software such as Excel and Stata, hypothesis testing with appropriate econometric techniques, obtaining analytical results, and preparing presentations for the AAEA conference.",
-    extension: "All of the research activities above, plus writing stakeholder-centered publications (for example, blogs or fact sheets), developing Excel tools for stakeholder use, and delivering presentations to stakeholders about the project.",
-    note: "Activities may include but are not limited to those listed."
+    research: "background literature review, data collection, data analysis using software such as Excel and Stata, hypothesis testing with appropriate econometric techniques, obtaining analytical results, and preparing presentations for the AAEA conference.",
+    extension: "all of the research activities above, plus writing stakeholder-centered publications (for example, blogs or fact sheets), developing Excel tools for stakeholder use, and delivering presentations to stakeholders about the project."
   },
 
   mentorship: "Alongside the research and extension work, the program includes mentorship. Each student is mentored by one of the faculty members and by one external mentor in a group setting. The goal is to give students information, guidance, and feedback on graduate school applications, job applications, and, more generally, career options and choices.",
@@ -94,8 +93,7 @@ window.COHORT = {
 
   /* ---- Projects -------------------------------------------------------
      Add, remove or reorder entries freely. Fields:
-       title, advisor, institution, email (optional), paragraphs[],
-       targetStudents (optional)
+       title, advisor, institution, email (optional), paragraphs[]
      ---------------------------------------------------------------------- */
   projects: [
     {
@@ -114,24 +112,24 @@ window.COHORT = {
        Delete the line  placeholder: true,  once a project is filled in. ---- */
     {
       placeholder: true,
-      title: "Project title to be announced",
-      advisor: "Faculty advisor to be announced",
+      title: "Project to be announced",
+      advisor: "",
       institution: "",
-      paragraphs: ["Project description coming soon."]
+      paragraphs: ["Details coming soon."]
     },
     {
       placeholder: true,
-      title: "Project title to be announced",
-      advisor: "Faculty advisor to be announced",
+      title: "Project to be announced",
+      advisor: "",
       institution: "",
-      paragraphs: ["Project description coming soon."]
+      paragraphs: ["Details coming soon."]
     },
     {
       placeholder: true,
-      title: "Project title to be announced",
-      advisor: "Faculty advisor to be announced",
+      title: "Project to be announced",
+      advisor: "",
       institution: "",
-      paragraphs: ["Project description coming soon."]
+      paragraphs: ["Details coming soon."]
     }
   ]
 };
