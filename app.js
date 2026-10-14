@@ -93,7 +93,12 @@
     list.appendChild(card);
   });
   if (!(c.projects || []).length) list.appendChild(el("p", { text: "Projects will be posted soon." }));
-  setText("projects-heading", c.label ? "Research projects, " + c.label : "Research projects");
+  var ph = $("projects-heading");
+  ph.textContent = "Research projects";
+  if (c.label) {
+    ph.appendChild(document.createTextNode(", "));
+    ph.appendChild(el("span", { style: "white-space:nowrap", text: c.label }));
+  }
 
   // Mentorship / conference
   setText("mentorship-text", c.mentorship);
