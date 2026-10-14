@@ -6,7 +6,7 @@ A static, no-build site for the Building Connections undergraduate research and 
 
 Open `cohort.js` and update:
 
-- `number`, `label` (for example "Cohort 4")
+- `label`: the academic year (for example "AY 2027-2028")
 - `applyUrl`: the direct Google Form link
 - `applicationDeadline`: set a date (leave `""` to hide it)
 - `contact`: name and email shown under the apply button (leave email `""` to hide)

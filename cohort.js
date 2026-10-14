@@ -10,8 +10,8 @@
    ========================================================================== */
 
 window.COHORT = {
-  number: 3,
-  label: "Cohort 3",
+  // Academic year shown at the top of the page and in the projects heading.
+  label: "AY 2026-2027",
 
   /* ---- Application ---------------------------------------------------- */
   // Direct link to the Google Form. Replace this each year if the form changes.
