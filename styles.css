@@ -66,6 +66,20 @@ h1 { font: 700 clamp(40px, 7vw, 72px)/1.05 var(--serif); margin: 0 0 12px; lette
 .subtitle { font: 500 clamp(20px, 3vw, 28px)/1.3 var(--serif); margin: 0 0 20px; color: var(--green-dark); }
 .intro { max-width: 680px; font-size: 19px; color: var(--muted); margin: 0 0 28px; }
 .cta { display: flex; flex-wrap: wrap; gap: 12px; }
+.hero-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 48px; align-items: center; }
+.hero-photo { margin: 0; }
+.hero-photo img { display: block; width: 100%; height: auto; border-radius: 18px; box-shadow: 0 18px 40px -18px rgba(20, 40, 25, .45); }
+.hero-photo figcaption { margin-top: 10px; font-size: 14px; color: var(--muted); }
+.hero-text .intro { max-width: none; }
+
+/* partner logos: white tiles in both themes so dark logos stay legible */
+.partners-band { padding: 40px 0 44px; }
+.partners-band h2 { font: 600 13px var(--sans); text-transform: uppercase; letter-spacing: .14em; color: var(--muted); text-align: center; margin: 0 0 20px; }
+.logo-row { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.logo-row a, .logo-row > li > span { display: flex; align-items: center; justify-content: center; height: 100px; padding: 16px 20px; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); transition: transform .12s, box-shadow .12s; }
+.logo-row a:hover { transform: translateY(-2px); box-shadow: 0 10px 24px -14px rgba(20, 40, 25, .5); }
+.logo-row img { max-height: 60px; max-width: 100%; width: auto; height: auto; }
+.logo-text { color: #1f2a22; font-weight: 600; text-align: center; }
 .deadline { margin: 18px 0 0; font-weight: 600; }
 
 /* glance */
@@ -121,8 +135,14 @@ h4 { font: 700 17px var(--sans); margin: 0 0 6px; color: var(--green-dark); }
 .partners a:hover { text-decoration: underline; }
 .partners img { max-height: 44px; width: auto; }
 
+@media (max-width: 900px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 32px; }
+  .logo-row { grid-template-columns: repeat(2, 1fr); }
+}
 @media (max-width: 720px) {
   nav ul li:not(:last-child) { display: none; }
+  .logo-row a, .logo-row > li > span { height: 80px; padding: 12px; }
+  .logo-row img { max-height: 46px; }
   .two-col { grid-template-columns: 1fr; }
   #facts { grid-template-columns: 1fr; }
   #facts > div { border-left: 0 !important; border-top: 1px solid var(--line) !important; }

@@ -39,13 +39,20 @@ window.COHORT = {
   /* ---- Contact (shown under the apply button; leave email "" to hide) -- */
   contact: { name: "", email: "" },
 
-  /* ---- Partner institutions ------------------------------------------- */
-  // Add "logo": "assets/logo-name.png" to show a logo instead of text.
+  /* ---- Hero photo (set src to "" to hide) ------------------------------ */
+  heroImage: {
+    src: "assets/hero.jpg",
+    alt: "A group of students and faculty standing in front of the AAEA and WAEA Joint Annual Meeting sign",
+    caption: "At the AAEA & WAEA Joint Annual Meeting"
+  },
+
+  /* ---- Partner institutions -------------------------------------------
+     Logos live in the assets/ folder. Remove "logo" to show the name only. */
   partners: [
-    { name: "Michigan State University", url: "https://www.msu.edu" },
-    { name: "Auburn University", url: "https://www.auburn.edu" },
-    { name: "University of Georgia", url: "https://www.uga.edu" },
-    { name: "Oregon State University", url: "https://oregonstate.edu" }
+    { name: "Michigan State University", url: "https://www.msu.edu", logo: "assets/logo-msu.png" },
+    { name: "Auburn University", url: "https://www.auburn.edu", logo: "assets/logo-auburn.png" },
+    { name: "University of Georgia", url: "https://www.uga.edu", logo: "assets/logo-georgia.png" },
+    { name: "Oregon State University", url: "https://oregonstate.edu", logo: "assets/logo-osu.png" }
   ],
 
   funding: "Funded by USDA National Institute of Food and Agriculture (NIFA).",

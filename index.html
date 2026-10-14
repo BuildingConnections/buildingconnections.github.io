@@ -42,7 +42,8 @@
 
   <main id="main">
     <section class="hero" id="top">
-      <div class="wrap">
+      <div class="wrap hero-grid">
+       <div class="hero-text">
         <p class="eyebrow" id="cohort-label"></p>
         <h1 id="title"></h1>
         <p class="subtitle" id="subtitle"></p>
@@ -52,12 +53,24 @@
           <a class="btn btn-ghost" href="#projects">Browse projects</a>
         </div>
         <p class="deadline" id="deadline" hidden></p>
+       </div>
+        <figure class="hero-photo" id="hero-photo" hidden>
+          <img id="hero-img" src="" alt="" width="1200" height="627">
+          <figcaption id="hero-caption"></figcaption>
+        </figure>
       </div>
     </section>
 
     <section class="glance" aria-label="At a glance">
       <div class="wrap">
         <dl id="facts"></dl>
+      </div>
+    </section>
+
+    <section class="partners-band" aria-labelledby="partners-heading">
+      <div class="wrap">
+        <h2 id="partners-heading">Partner universities</h2>
+        <ul class="logo-row" id="logo-row"></ul>
       </div>
     </section>
 

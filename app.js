@@ -113,15 +113,24 @@
   $("mentorship-text").textContent = c.mentorship || "";
   $("conference-text").textContent = c.conference || "";
 
-  // Footer
-  var pl = $("partners");
+  // Hero photo
+  if (c.heroImage && c.heroImage.src) {
+    $("hero-img").src = c.heroImage.src;
+    $("hero-img").alt = c.heroImage.alt || "";
+    $("hero-caption").textContent = c.heroImage.caption || "";
+    $("hero-photo").hidden = false;
+  }
+
+  // Partners: logo band (logos where available, names otherwise) + footer names
+  var band = $("logo-row"), pl = $("partners");
   (c.partners || []).forEach(function (p) {
     var inner = p.logo
-      ? el("img", { src: p.logo, alt: p.name, loading: "lazy" })
-      : document.createTextNode(p.name);
-    var item = p.url ? el("a", { href: p.url, rel: "noopener" }, [inner]) : el("span", {}, [inner]);
-    if (p.url) item.target = "_blank";
-    pl.appendChild(el("li", {}, [item]));
+      ? el("img", { src: p.logo, alt: p.name, loading: "lazy", height: "60" })
+      : el("span", { class: "logo-text", text: p.name });
+    var tile = p.url ? el("a", { href: p.url, rel: "noopener", target: "_blank", title: p.name }, [inner]) : el("span", {}, [inner]);
+    band.appendChild(el("li", {}, [tile]));
+    var name = p.url ? el("a", { href: p.url, rel: "noopener", target: "_blank", text: p.name }) : el("span", { text: p.name });
+    pl.appendChild(el("li", {}, [name]));
   });
   $("funding").textContent = c.funding || "";
   $("year").textContent = new Date().getFullYear();
