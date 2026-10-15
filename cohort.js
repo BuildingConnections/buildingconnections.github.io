@@ -43,12 +43,12 @@ window.COHORT = {
   heroImage: {
     src: "assets/hero.jpg",
     alt: "A group of students and faculty standing in front of the AAEA and WAEA Joint Annual Meeting sign",
-    caption: "At the AAEA & WAEA Joint Annual Meeting"
+    caption: "At the 2025 AAEA & WAEA Joint Annual Meeting in Denver, CO"
   },
 
   /* ---- Partner institutions -------------------------------------------
      Logos live in the assets/ folder. Remove "logo" to show the name only. */
-  partners: [
+  Participating Universities: [
     { name: "Michigan State University", url: "https://www.msu.edu", logo: "assets/logo-msu.png" },
     { name: "Auburn University", url: "https://www.auburn.edu", logo: "assets/logo-auburn.png" },
     { name: "University of Georgia", url: "https://www.uga.edu", logo: "assets/logo-georgia.png" },
