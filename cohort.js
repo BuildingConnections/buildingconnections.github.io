@@ -48,7 +48,7 @@ window.COHORT = {
 
   /* ---- Partner institutions -------------------------------------------
      Logos live in the assets/ folder. Remove "logo" to show the name only. */
-  Participating Universities: [
+  partners: [
     { name: "Michigan State University", url: "https://www.msu.edu", logo: "assets/logo-msu.png" },
     { name: "Auburn University", url: "https://www.auburn.edu", logo: "assets/logo-auburn.png" },
     { name: "University of Georgia", url: "https://www.uga.edu", logo: "assets/logo-georgia.png" },
@@ -111,11 +111,14 @@ window.COHORT = {
     /* ---- PLACEHOLDERS: replace each block below when you have the details.
        Delete the line  placeholder: true,  once a project is filled in. ---- */
     {
-      placeholder: true,
-      title: "Project to be announced",
-      advisor: "",
-      institution: "",
-      paragraphs: ["Details coming soon."]
+      title: "Price Spreads for Fruits and Vegetables: From Farm to Grocery Store",
+      advisor: "Prof. Tim Delbridge",
+      institution: "Oregon State University",
+      email: "tim.delbridge@oregonstate.edu",
+      paragraphs: [
+        "There is often a large gap between the price that consumers pay for fruits and vegetables at the grocery store and the price that farmers receive for their crop. This “price spread” pays for processing, packaging, distribution, and retail sale, including rates of food waste and damage as it makes its way from the farm to the consumer’s home. Many farmers are concerned that this price spread has grown over time, with farmgate prices seeming to rise at a slower rate than input costs. Meanwhile, retail food prices seem to have risen faster. It is not often clear which factors are responsible for the changes in the price spreads, and explanations may include labor costs, fuel prices, or grocery store consolidation and market power.",
+        "This project will focus on analysis of existing food and commodity price data for a variety of fruit and vegetable products that are important to farmers in the Pacific Northwest, Upper Midwest, and the Southeast United States. Students will develop skills in academic literature review, collection and management of secondary data sources, and quantitative analysis. Results will be of interest to farm producers and others within the specialty crop supply chain."
+      ]
     },
     {
       placeholder: true,
