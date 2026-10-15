@@ -69,7 +69,7 @@ window.COHORT = {
   lectures: [
     {
       title: "Introduction to Academic Research",
-      text: "Academic honesty, the research process, data utilization, safe data storage, data analysis software and related resources, library resources, Google Scholar, academic writing and related resources."
+      text: "Academic honesty, the research process, data utilization, safe data storage, data analysis software, library resources, Google Scholar, academic writing and related resources."
     },
     {
       title: "Introduction to Extension",
@@ -77,7 +77,7 @@ window.COHORT = {
     },
     {
       title: "Introduction to the AAEA Annual Meeting & Student Presentations",
-      text: "The Agricultural and Applied Economics Association summer conference: the requirement to attend, the student competitions, expectations for participation, related deadlines, travel arrangements, and related topics."
+      text: "The Agricultural and Applied Economics Association summer conference: the requirement to attend, the student competitions, expectations for participation, deadlines, travel arrangements, and related topics."
     }
   ],
 
