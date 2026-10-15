@@ -97,7 +97,7 @@ window.COHORT = {
      ---------------------------------------------------------------------- */
   projects: [
     {
-      title: "Understanding Market Access in Specialty Crops",
+      title: "Project 1: Understanding Market Access in Specialty Crops",
       advisor: "Prof. Jeta Rudi Polloshka",
       institution: "Michigan State University",
       email: "rudipoll@msu.edu",
@@ -111,7 +111,7 @@ window.COHORT = {
     /* ---- PLACEHOLDERS: replace each block below when you have the details.
        Delete the line  placeholder: true,  once a project is filled in. ---- */
     {
-      title: "Price Spreads for Fruits and Vegetables: From Farm to Grocery Store",
+      title: "Project 2: Price Spreads for Fruits and Vegetables: From Farm to Grocery Store",
       advisor: "Prof. Tim Delbridge",
       institution: "Oregon State University",
       email: "tim.delbridge@oregonstate.edu",
@@ -122,14 +122,14 @@ window.COHORT = {
     },
     {
       placeholder: true,
-      title: "Project to be announced",
+      title: "Project 3: Project to be announced",
       advisor: "",
       institution: "",
       paragraphs: ["Details coming soon."]
     },
     {
       placeholder: true,
-      title: "Project to be announced",
+      title: "Project 4: Project to be announced",
       advisor: "",
       institution: "",
       paragraphs: ["Details coming soon."]
