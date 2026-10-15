@@ -33,7 +33,7 @@ window.COHORT = {
   /* ---- Page heading and introduction ----------------------------------- */
   title: "Building Connections",
   subtitle: "An Undergraduate Research and Extension Program",
-  tagline: "A research and extension exchange program in ag finance, marketing, and food security",
+  tagline: "A research and extension exchange program in agricultural and food economics, marketing, management, and policy",
   intro: "Building Connections is a paid research and extension program for undergraduates, run jointly by faculty at Michigan State University, Auburn University, the University of Georgia, and Oregon State University. Students work in teams of three with a faculty advisor on a research and extension project and prepare a presentation for the AAEA Annual Meeting. Please read everything on this page before you apply.",
 
   /* ---- Contact (shown under the apply button; leave email "" to hide) -- */
