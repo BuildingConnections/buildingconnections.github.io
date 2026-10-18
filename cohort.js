@@ -121,7 +121,6 @@ window.COHORT = {
       ]
     },
     {
-      placeholder: true,
       title: "Project 3: SNAP Employment & Training: Comparing State Program Designs and Outcomes",
       advisor: "Prof. Joel Cuffey",
       institution: "Auburn University",
