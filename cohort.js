@@ -122,17 +122,24 @@ window.COHORT = {
     },
     {
       placeholder: true,
-      title: "Project 3: Project to be announced",
-      advisor: "",
-      institution: "",
-      paragraphs: ["Details coming soon."]
+      title: "Project 3: SNAP Employment & Training: Comparing State Program Designs and Outcomes",
+      advisor: "Prof. Joel Cuffey",
+      institution: "Auburn University",
+      email: "cuffey@auburn.edu",
+      paragraphs: [
+         "The Supplemental Nutrition Assistance Program (SNAP) provides benefits to assist qualifying families in buying food. To help families and individuals transition into higher-paying employment and off of SNAP, the SNAP program runs Employment & Training (E&T) programs. Activities in SNAP E&T programs include activities such as job training and assistance with applying for and finding a job. Each state offers a SNAP E&T program with different components. Additionally, some states mandate SNAP E&T programs for some adults without disabilities to participate in SNAP, and other states operate a voluntary SNAP E&T program. In this project, students will learn about the various ways that states structure SNAP E&T programs and investigate how these differences impact state SNAP caseloads, employment, and food insecurity."
+      ]
     },
     {
-      placeholder: true,
-      title: "Project 4: Project to be announced",
-      advisor: "",
-      institution: "",
-      paragraphs: ["Details coming soon."]
+      title: "Project 4: Forecasting Key Prices for Livestock Producers",
+      advisor: "Prof. Will Secor",
+      institution: "University of Georgia",
+      email: "wsecor@uga.edu",
+      paragraphs: [
+        "Market forecasts are helpful for livestock producers planning their operations in the future. Different decisions call for different market information (e.g., prices, basis), from different markets (e.g., output prices vs. input costs), and for varying time horizons (e.g., next month vs. the next five years). These different situations require producers to understand the underlying markets and their drivers, and to use tools to project where prices may go.",
+        "This project will describe important market characteristics for a key price that livestock producers must forecast. The price will be determined based on student interests and industry importance. Examples include price levels (e.g., prices for calves or hay), basis, price slides, or quality premiums. The characterization of these markets could include seasonal shifts, the impact of quality measures on price, and other factors (e.g., historical variability). Different methods may be used depending on the specific focus area. This work will culminate in Extension outputs (e.g., blog posts and potentially a web-based price reporting tool).",
+        "By the end of this project, students will be able to understand the important drivers of the livestock markets they studied, characterize livestock and other markets, and communicate scientific data results to producer audiences."
+      ]
     }
   ]
 };
